@@ -4,10 +4,12 @@
      font-family: 'Baloo Bhaina 2', cursive;
      margin: 0px;
      padding: 0px;
-     /* background-image: url('images/background.jpeg'); */
+     background-image: url('https://images.pexels.com/photos/3112004/pexels-photo-3112004.jpeg?auto=compress&cs=tinysrgb&w=1600');
      background-repeat: no-repeat;
-     background-size: 1707px;
-     color: white;
+     width: 100vw;
+     height: 100vh;
+     background-size: 100%;
+     /* color: white; */
  }
  
  img {
@@ -24,11 +26,16 @@
  .navbar li {
      display: inline-block;
      font-size: 20px;
+     border: 1px solid white;
+     border-radius: 6px;
+     padding: 4px;
+     background-color: rgb(255, 252, 252);
+     margin: 0 1rem;
  }
  
  .navbar li a {
      display: inline-block;
-     color: #43df43;
+     color: #000000;
      text-decoration: none;
      padding: 2px 25px;
      font-size: 25px;
@@ -50,7 +57,7 @@
  .mid {
      display: block;
      margin: auto;
-     width: 650px;
+     /* width: 650px; */
      /* border: 2px solid green; */
      /* background-color: #000000; */
      margin: auto;
@@ -65,20 +72,27 @@
      /* border: 2px solid yellow; */
      width: 14%;
  }
- 
+
+ .heading{
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+ }
+
  .btn {
+     color: white;
+     background-color: #000000;
+     border: 1px solid white;
+     border-radius: 8px;
+     padding: 0.5rem;
      display: inline-block;
      margin: 2px 2px;
-     background-color: #000000;
-     color: white;
-     padding: 4px;
      width: 47%;
-     /* border-radius: 10px; */
      cursor: pointer;
  }
  
  .btn:hover {
-     background-color: grey;
+     background-color: rgb(172, 168, 168);
+     color: #000000;
  }
  
  .container {
@@ -111,4 +125,10 @@
  
  .container h2 {
      color: #ffba1f;
+ }
+
+ input{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 0.5rem;
  }
